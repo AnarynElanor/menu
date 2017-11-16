@@ -1,0 +1,50 @@
+article {
+  display: flex;
+}
+
+section {  
+  display: inline-block;
+  width: 19%;
+  background: #e3e3e3;
+  color: #707070;
+  font-family: sans-serif;
+  margin: -2px;
+  padding: 0;
+}
+
+section > img {
+  display: block;
+  margin: 0 auto;
+}
+
+span{
+	color: purple;
+	font-size: 40px;
+}
+
+section > h2,
+section > h3,
+section > h4,
+section > p {
+  text-align: center;
+}
+
+.active {
+  background: white;
+  color: #e3e3e3;
+  height: 210px;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 7px;
+}
+
+
+.text{
+	font-family: 'Caveat', cursive;
+
+}
+
+.titulo{
+	font-family: 'Caveat Brush', cursive;
+
+}
